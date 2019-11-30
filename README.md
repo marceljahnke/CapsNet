@@ -25,3 +25,6 @@ Falls noch kein jupyter notebook vorhanden ist muss dies ebenfalls installiert w
 Um das Jupyter Notebook zu starten muss mit aktivierter virtueller Umgebung folgender Befehl ausgeführt werden
 
 	jupyter notebook CapsuleNetwork.ipynb
+
+## Training und Evaluation
+Um das Training und die Evaluation durchzuführen müssen im Code die entsprechenden Variablen ```training```und ```evaluation``` auf ```True```gesetzt werden. Aktuell wird das Model mithilfe der zur Verfügung gestellten Gewichte ```result/trained_model.h5``` lediglich evaluiert.
