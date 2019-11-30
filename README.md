@@ -14,5 +14,14 @@ Die Standardpakete können bei Abfrage per Eingabe von ```y``` installiert werde
 
 Die weiteren Pakete können wie folgt installiert werden.
 
-	conda install --file requirements.txt
-	
+  * keras
+  * tensorflow
+  * numpy
+  * matplotlib (optional für Visualisierung)
+
+Falls noch kein jupyter notebook vorhanden ist muss dies ebenfalls installiert werden. Über Anaconda ist dies leicht über die Startseite möglich.
+
+## Ausführen
+Um das Jupyter Notebook zu starten muss mit aktivierter virtueller Umgebung folgender Befehl ausgeführt werden
+
+	jupyter notebook CapsuleNetwork.ipynb
