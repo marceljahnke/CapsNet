@@ -12,7 +12,7 @@ Die Standardpakete können bei Abfrage per Eingabe von ```y``` installiert werde
 
 	activate CapsNet
 
-Die weiteren Pakete können über Anaconda oder pip installiert werden. Benötigt werden:
+Folgende Pakete müssen zusätzlich über Anaconda oder pip installiert werden:
 
   * keras
   * tensorflow
